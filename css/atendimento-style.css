@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    background-size: 1920px 1080px;
+    background: linear-gradient(180deg, #f8f6d9, #BDEEF1 );
+}
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+header img {
+    margin-left: 20px;
+    
+}
+header h1 {
+    font-size: 60px;
+    margin-left: 25px;
+}
+.move-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 134px;
+}
+form {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1300px;
+    height: 600px;
+    
+}
+form h1 {
+    text-align: center;
+    font-size: 50px;
+}
+form div {
+    display: flex;
+    width: 600px;
+}
+label {
+    font-size: 22px;
+}
+select {
+    margin-left: 10px;
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    font-size: 22px;
+}
+input {
+    width: 340px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
+    border: solid black 2px;
+    outline: 0;
+    
+} 
+p {
+    display: flex;
+    align-items: center;
+}
+textarea {
+    width: 800px;
+    font-size: 22px;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    outline: 0;
+}
+.btn-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border:none;
+    border-radius: 5px;
+    width: 400px;
+    background-color: #BDEEF1;
+    cursor: pointer;
+    transform: scale(1.0);
+    transform: all 0.5s;
+}
+.btn-submit:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.move-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0px;
+}

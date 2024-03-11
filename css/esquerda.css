@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #f8f6d9;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+header img {
+    margin-left: 20px;
+}
+header h1 {
+    font-size: 60px;
+    margin-left: 25px;
+}
+  #canvas {
+    
+    margin: 20px;
+    padding: 0; 
+    float: left;
+    border: solid black 5px;
+    border-radius: 5px;
+  }
+  body {
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    float:  left;
+    width: 100%;
+  }
+  main {
+    float: right;
+  }
+ 
+ .title {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: #ff0000;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+p {
+  font-size: 30px;
+  margin-left: 20px;
+}
+footer {
+  width: 100%;
+  margin-top: 50px;
+  height: 150px;
+  background-color: #e6d8cb;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  
+}
+.center-footer span{
+  font-size: 18px;
+}
+.right-footer {
+  margin-right: 30px;
+}
+.right-footer a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+.left-footer {
+  display: flex;
+  margin: auto 20px;
+}
+.left-footer a {
+  margin: 0px 10px;
+}
+
+@media (min-width: 320px) and (max-width:425px) {
+
+  header {
+      width: 100%;
+  }
+  header h1{
+      font-size: 50px;
+      margin-left: 2px;
+  }
+  header img {
+      width: 90%;
+  }
+  header a {
+      width: 120px;
+      margin-right: 20px;
+  }
+  main {
+    float: none;
+  }
+  canvas {
+    display: none;
+  }
+  .title {
+   width: 90%;
+   font-size: 30px;
+   padding: 5px;
+   margin: 20px auto;
+  }
+  p {
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    width: 90%;
+  }
+  .left-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  }

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    background-size: 1920px 1080px;
+    background: linear-gradient(180deg, #f8f6d9, #BDEEF1 );
+}
+header {
+    background-color: #f8f6d9;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+header img {
+    margin-left: 20px;
+}
+header h1 {
+    font-size: 60px;
+    margin-left: 25px;
+}
+.div-images {
+    display: flex;
+    justify-content: center;
+}
+.div-images img {
+    background-color: white;
+    margin: 50px 50px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.master-text {
+    display: flex;
+    justify-content: center;
+}
+.master-text div {
+    width: 550px;
+    margin: 10px 50px;
+}
+.master-text h1 {
+    font-size: 65px;
+}
+.master-text  ul li{
+    width: 450px;
+    min-height: 200px;
+    font-size: 22px;
+    margin: 40px 0px;
+    background-color: #ee8a9a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    list-style-type: none;
+}
+footer {
+    width: 100%;
+    margin-top: 50px;
+    height: 150px;
+    background-color: #e6d8cb;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.left-footer {
+    display: flex;
+    margin: auto 20px;
+}
+.left-footer a {
+    margin: 0px 10px;
+}
+
+@media ( min-width: 320px) and (max-width:425px) {
+
+    header {
+        width: 100%;
+    }
+    header h1{
+        font-size: 30px;
+        margin-left: 2px;
+    }
+    header img {
+        width: 90%;
+    }
+    header a {
+        width: 120px;
+        margin-right: 20px;
+    }
+    .master-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-images {
+        display: flex;
+        flex-direction: column;
+    }
+    .div-images img {
+        width: 60%;
+        margin: 20px 35px;
+    }
+    .master-text div {
+        width: 85%;
+        margin: 10px 5px;
+        font-size: 20px;
+    }
+    .master-text h1 {
+        font-size: 45px;
+        margin-left: 10px;
+    }
+    .master-text  ul li{
+        width: 350px;
+        min-height: 200px;
+        font-size: 22px;
+        margin: 40px 10px;
+        background-color: #ee8a9a;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: justify;
+        list-style-type: none;
+    }
+    footer {
+        width: 100%;
+        margin-top: 50px;
+        height: 150px;
+        background-color: #e6d8cb;
+        display: flex;
+        justify-content:center;
+        align-items: flex-end;
+    }
+    .left-footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto 20px;
+    }
+    .left-footer a {
+        margin: 0px 10px;
+    }
+    
+}

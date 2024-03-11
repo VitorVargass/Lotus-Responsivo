@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denunciar</title>
+    <link rel="stylesheet" href="css/denunciar.css">
+    <script src="js/jquery-min.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/denunciar.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="logo" width="130px"></a>
+        <h1>Denunciar</h1>
+    </header>
+    <div class="move-form">
+        <form action="">
+            <h1>Entre em contato conosco</h1>
+        <div>
+            <p><label for="">Nome:</label><input type="text" required placeholder="Digite seu nome" id="nome"></p>
+            <p><label for="">CPF:</label><input type="text" required placeholder="Digite seu CPF" id="cpf"></p>
+            <p><label for="">CEP:</label><input type="text" placeholder="Digite seu CEP" id="cep"></p>
+        </div>
+
+        <div>  
+            <p><label for="">Email:</label><input type="email" placeholder="Digite seu Email" id="email"></p>
+            <p><label for="">Estado:</label><input type="text" placeholder="Digite seu Estado" id="estado"></p>
+            <p><label for="">Cidade:</label><input type="text" placeholder="Digite sua cidade" id="cidade"></p>
+            
+        
+            <p><label for="" class="denunciar-label">Denunciar:</label><select id="select" required>
+                <option value="VIOLÊNCIA FÍSICA" disabled>Selecione uma opção</option>
+                <option value="Violencia Fisica">VIOLÊNCIA FÍSICA</option>
+                <option value="VIOLÊNCIA SEXUAL">VIOLÊNCIA SEXUAL</option>
+                <option value="VIOLÊNCIA PSICOLÓGICA">VIOLÊNCIA PSICOLÓGICA</option>
+                <option value="VIOLÊNCIA PATRIMONIAL">VIOLÊNCIA PATRIMONIAL</option>
+                <option value="VIOLÊNCIA MORAL">VIOLÊNCIA MORAL</option>
+            </select></p>
+        
+            <p ><label for="" class="label-explique">Explique o acontecido:</label></p></div>
+            <p ><textarea required placeholder="Digite o acontecido" cols="57" rows="10" id="mensagem"></textarea></p>
+        
+            <div class="move-btn">
+            <input type="submit" value="Denunciar" class="btn-submit" onclick="Cadastrar()">
+        </div>
+        </form>
+    </div>
+</body>
+</html>

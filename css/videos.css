@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(180deg, #f8f6d9, #BDEEF1 );
+    background-size: 1920px 1080px;
+}
+header {
+    background-color: #f8f6d9;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+header img {
+    margin-left: 20px;
+}
+header h1 {
+    font-size: 60px;
+    margin-left: 25px;
+}
+.master-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    border: solid black 2px;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+@media ( min-width: 320px) and (max-width:425px) {
+
+    header {
+        width: 100%;
+    }
+    header h1{
+        font-size: 45px;
+        margin-left: 2px;
+    }
+    header img {
+        width: 90%;
+    }
+    header a {
+        width: 120px;
+        margin-right: 20px;
+    }
+    .title {
+        width: 98%;
+    }
+    .master-card {
+        width: 100%;
+    }
+    .card {
+        width: 95%;
+    }
+    .card iframe {
+        width: 90%;
+    }
+
+}
